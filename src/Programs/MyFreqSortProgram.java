@@ -1,4 +1,4 @@
-package Programs;/* Write a program to pint an array in increasing order of frequency o number, and is frequency is
+package src.Programs;/* Write a program to pint an array in increasing order of frequency o number, and is frequency is
  same the print the number in descending order */
 import java.util.*;
 

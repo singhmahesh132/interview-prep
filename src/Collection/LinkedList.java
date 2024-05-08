@@ -1,4 +1,4 @@
-package Collection;
+package src.Collection;
 
 public class LinkedList {
 

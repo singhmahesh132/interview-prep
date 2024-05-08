@@ -1,4 +1,4 @@
-package DesignPattern;
+package src.DesignPattern;
 
 public class Product {
 
