@@ -1,8 +1,11 @@
-package src.Programs;/* Write a program to pint an array in increasing order of frequency o number, and is frequency is
- same the print the number in descending order */
+package src.Programs;
+
+/* Write a program to pint an array in increasing order of frequency of number, and if frequency is
+ same then print the number in descending order */
+
 import java.util.*;
 
-public class MyFreqSortProgram {
+public class FreqSortProgram {
 
     public static class numObj{
         int num;
@@ -46,7 +49,7 @@ public class MyFreqSortProgram {
     }
 
     public static void main(String[] args){
-        MyFreqSortProgram program = new MyFreqSortProgram();
+        FreqSortProgram program = new FreqSortProgram();
         Integer[] arr = {1,1,1,2,2,2,2,3,3,3,4,5,5};
         Map<Integer,Integer> freqMap = program.getFreqMap(Arrays.stream(arr).toList());
         List<numObj> sortedList = program.getSortedList(freqMap);
