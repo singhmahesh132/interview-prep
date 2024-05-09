@@ -29,12 +29,12 @@ public class MapPrac {
 
     List<Integer> numberList = Arrays.asList(1,3,4,2,5,6,7);
     List<String> strList = Arrays.asList("Mahesh",null,"Nidhi","Nishi",null,"Brijesh");
-    List<FilterPrac.Person> peopleList = Arrays.asList(
-            new FilterPrac.Person("Mahesh","Mira Road",28),
-            new FilterPrac.Person("Nishi","Panvel",27),
-            new FilterPrac.Person("Nidhi","Goregoan",20),
-            new FilterPrac.Person("Brijesh","Kurla",27),
-            new FilterPrac.Person("Pixie","Mira Road",9));
+    List<Person> peopleList = Arrays.asList(
+            new Person("Mahesh","Mira Road",28),
+            new Person("Nishi","Panvel",27),
+            new Person("Nidhi","Goregoan",20),
+            new Person("Brijesh","Kurla",27),
+            new Person("Pixie","Mira Road",9));
 
     public static void main(String[] args){
         MapPrac m = new MapPrac();
