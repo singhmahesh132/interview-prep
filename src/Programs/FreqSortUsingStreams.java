@@ -5,7 +5,7 @@ package src.Programs;
 
 import java.util.*;
 
-public class FreqSortUsingStreams {
+public class    FreqSortUsingStreams {
 
     public static void main(String[] args){
         Integer[] arr = {1,1,1,2,2,2,2,3,3,3,4,5,5};
