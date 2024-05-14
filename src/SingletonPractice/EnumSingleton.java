@@ -4,6 +4,10 @@ package src.SingletonPractice;
 
 public enum EnumSingleton{
     SINGLETON_INSTANCE;
+
+    public static void main(String[] args){
+        EnumSingleton obj = EnumSingleton.SINGLETON_INSTANCE;
+    }
 }
 
 
