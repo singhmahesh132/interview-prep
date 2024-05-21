@@ -54,6 +54,7 @@ public class Dog extends AbstractAnimal implements LivingThingInterface {
         LivingThingInterface newDog = new Dog();
         newDog.say();           //Dog.say //since object is of type LivingThing and LivingThing has say() method, but object is created using new Dog(), so call will check for method in Dog(interface method body overriding)
         newDog.living();        //Dog.living //since object is of type LivingThing and LivingThing has living() method, but object is created using new Dog(), so call will first check for method in Dog(overriding), and if not found in Dog then call Animal method.
+        System.out.println(LivingThingInterface.className); //variables in interface are by default, final and static
         //newDog.myDog();       //Since object is of type LivingThingInterface, and it does not has myDog() method thus gives error
         //newDog.play();        //Since object is of type LivingThingInterface, and it does not has play() method thus gives error
         //newDog.shout();

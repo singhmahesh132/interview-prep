@@ -1,7 +1,9 @@
 package src.InterfaceAndAbctract;
 
 public interface LivingThingInterface {
-    public void say();
+    String className = "LivingThing";
+
+    void say();
 
     static void shout(){
         System.out.println("LivingThing.shout");
