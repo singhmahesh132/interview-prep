@@ -9,15 +9,6 @@ public class Product {
     private Product() {
     }
 
-    @Override
-    public String toString() {
-        return "DesignPattern.Product{" +
-                "name='" + name + '\'' +
-                ", value=" + value +
-                ", quantity=" + quantity +
-                '}';
-    }
-
     public static class ProductBuilder {
         private Product product;
 
