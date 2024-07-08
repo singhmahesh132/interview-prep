@@ -5,7 +5,6 @@ public class BuilderPattern {
     public static void main(String[] args){
         Product paint = new Product.ProductBuilder()
                 .name("Asian Paint")
-                .quantity(10)
                 .value(10000)
                 .build();
         System.out.println(paint);

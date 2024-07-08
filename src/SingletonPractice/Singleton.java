@@ -20,6 +20,6 @@ public final class Singleton {
         Singleton singleton = Singleton.getInstance();
     }
     //Here singleton can break in two scenarios. using clone and in multithreading.
-    //in multithreading, when two threads simultaneously try to create singleton object.
+    //in multithreading, when two threads simultaneously try to create singleton object .
     //thus we use double-check locking method.
 }
